@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+section{
+    height: 480px;
+    width: 600px;
+    /* border: 2px solid ; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    box-shadow: 4px 4px 4px 5px whitesmoke ;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.container{
+    margin-left: 3px;
+  
+}
+.container .weather_search{
+    height:25px;
+    width: 200px;
+    border: 2px solid;
+    border-radius: 5px;
+    background-color: black;
+    display: inline-block;
+    margin-top: 10px;
+    margin-right:10cm;
+
+
+   
+}
+.container input{
+    border-style: none;
+    background-color: black;
+    border-style: none;
+    outline: none;
+    color: white;
+
+    
+}
+::placeholder{
+    color: white;
+}
+.container i{
+    color: white;
+}
+.enterbtn{
+    color: white;
+}
+.Weather_main_container
+{
+    height: 300px;
+    width: 300px;
+    /* border: 2px solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.weather_forcast{
+    height: 30px;
+    width: 90px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Weather_temp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.maxmin_temp{
+    display: flex;
+    /* border: 2px solid; */
+    gap:40px;
+}
+.weather_condition{
+    height: 150px;
+    width: 500px;
+    /* border: 2px solid; */
+}
+.weather_condition{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.weatherbox{
+    height:50px;
+    width: 190px;
+    border: 2px solid ;
+    font-weight: 500;
+    border: none;
+    box-shadow: 5px 5px 7px gray;
+    
+}
+.weatherbox i{
+    font-size: larger;
+}
+img{
+    height: 90px;
+    filter: drop-shadow(8px 8px 10px rgba(0, 0, 0, 0.332));
+ 
+}
+.weathe_temp_value{
+    margin-top: -5px;
+    font-size:xx-large;
+    font-weight: 700;
+}
+
